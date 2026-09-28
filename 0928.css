@@ -1,0 +1,267 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'pretendard', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrap {
+    /* background-color: aqua; */
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid #333; */
+}
+
+.section {
+    /* background-color: rgb(237, 222, 251); */
+    padding: 120px 0;
+}
+
+.title-sm {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.title-lg {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+}
+
+.header {
+    height: 80px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.header .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.header .nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header .nav a {
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.header .nav a:hover {
+    color: cornflowerblue;
+}
+
+/* Main Hero */
+.hero {
+    background-color: aquamarine;
+    padding: 180px 0;
+    background-image: url('../images/img2.jpg');
+    object-fit: cover;
+
+}
+
+.hero h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -1px;
+    color: #02fc0e;
+}
+
+.about .title-lg {
+    margin-bottom: 60px;
+}
+
+.about .about-content {
+    display: flex;
+    gap: 80px
+}
+
+.about .about-content>div {
+    flex: 1;
+}
+
+.about .img-box {
+    height: 520px;
+    background-color: beige;
+    background-image: url('../images/img3.jpg');
+    object-fit: cover;
+
+}
+
+.about .txt-box .num {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.about .txt-box h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about .txt-box p {
+    font-size: 16px;
+    color: #555;
+    max-width: 440px;
+}
+
+/* Section 2 */
+.business-header {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.business-header .title-lg {
+    margin-bottom: 0;
+}
+
+.business-list {
+    background-color: #eee;
+}
+
+.business-list .wrap {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.business-list .wrap>div {
+    flex: 1;
+}
+
+.business-list .list-title h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.business-list .list-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.business-list .list-content li {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #333;
+    font-size: 17px;
+    color: #333;
+}
+
+/* 섹션4 */
+.sustain .title-lg {
+    margin-bottom: 60px;
+}
+
+.sustain .card-list {
+    display: flex;
+    gap: 20px;
+}
+
+.sustain .card-list {
+    flex: 1;
+}
+
+.sustain .card .img-box {
+    height: 400px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    background-image: url('../images/img3.jpg');
+    
+}
+
+ .sustain .card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sustain .card p {
+    font-size: 14px;
+    color: #666;
+    word-break: keep-all;
+}
+
+/* 섹션5 */
+.banner {
+    background-color: antiquewhite;
+}
+
+.banner .wrap {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.banner .wrap div {
+    flex: 1;
+}
+
+.banner .banner-title h2 {
+    font-sixe: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.banner .banner-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.banner .link-item{
+    background-color: #fff;
+    padding: 32px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: aquamarine;
+    color: blue;
+    padding: 60px 0;
+}
+
+.footer .warp h2{
+    font-size: 20px;
+    font-weight: 800px;
+}
